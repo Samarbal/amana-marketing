@@ -33,7 +33,8 @@ const navigationItems: NavigationItem[] = [
   { id: "demographic-view", name: "Demographic View", icon: Users, href: "/demographic-view" },
   { id: "weekly-view", name: "Weekly View", icon: Calendar, href: "/weekly-view" },
   { id: "region-view", name: "Region View", icon: MapPin, href: "/region-view" },
-];
+  { name: 'Device View', id: 'device-view', icon: BarChart3, href: '/device-view',}
+];  
 
 export function Navbar({ className = "" }: NavbarProps) {
   const router = useRouter();
